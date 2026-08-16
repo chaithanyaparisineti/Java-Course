@@ -1,9 +1,6 @@
 package com.Arrays;
-
 import java.util.Arrays;
-
 public class BubbleSort {
-
 	public static void main(String[] args) {
 	int[]arr= {1,3,6,7,9,2,4};
 	int temp=0;
@@ -28,7 +25,6 @@ public class BubbleSort {
 	System.out.println(Arrays.toString(arr));
 	System.out.println(count);
 	System.out.println(count1);
-	
 	}
 }
 
