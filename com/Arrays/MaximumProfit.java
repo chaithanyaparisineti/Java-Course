@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MaximumProfit {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);r
+		Scanner sc=new Scanner(System.in);
 		int[] arr = {7, 1, 5, 3, 6, 4};
 
         int buy = arr[0];

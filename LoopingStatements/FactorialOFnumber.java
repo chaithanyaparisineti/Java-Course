@@ -14,7 +14,5 @@ public class FactorialOFnumber {
 		long n=sc.nextLong();
 		long fact=findfactorial(n);
 		System.out.println("factorial of given number:"+fact);
-
 	}
-
 }
