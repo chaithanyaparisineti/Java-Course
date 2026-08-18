@@ -14,6 +14,7 @@ class Mammal extends Animal{
 		this("dog");
 		System.out.println("Mammal no arg constructor called");		
 }
+
 	Mammal(String name1){
 		super();
 		System.out.println("Mammal one arg construvtor called");
@@ -23,6 +24,7 @@ class Mammal extends Animal{
 		this();
 		System.out.println("Mammal two arg construvtor called");
 	}
+}
 	class Dog extends Mammal{
 		Dog(){
 			
@@ -37,10 +39,10 @@ class Mammal extends Animal{
 public class Hierarchy {
 
 	public static void main(String[] args) {
-		Dog d1=new Dog();
+		Dog d1= new Dog();
 	}
 
 	}
-}
+
 
 

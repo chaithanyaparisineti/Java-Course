@@ -2,10 +2,12 @@ package myprojectworkspace;
 
 public class Welcome {
 	void main() {
-	    string carName="altroz";
-		int carNo="1215";
-		string carBrand="tata";
+	    String carName="altroz";
+		int carNo=1215;
+		String carBrand="tata";
 		System.out.println("carName");
+        System.out.println(carNo);
+        System.out.println(carBrand);
 	}
 
 }
