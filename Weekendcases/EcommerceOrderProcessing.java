@@ -4,7 +4,7 @@ public class EcommerceOrderProcessing {
 	static int singleTransactionProfit(int[]prices) {
 		int minprice=prices[0];
 		int maxprofit=0;
-		for(int i=1;i<prices.length;i++) {
+		for(int i=1;i<prices.length;i++) {	
 			if(prices[i]<minprice) {
 				minprice=prices[i];
 			}else {
