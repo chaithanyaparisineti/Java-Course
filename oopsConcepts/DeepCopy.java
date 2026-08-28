@@ -57,7 +57,7 @@ public class DeepCopy {
         System.out.println("Name: " + st2.sname);
         System.out.println("City: " + st2.address.city);
 
-        // Change copied object's city
+        // Change copied objects city
         st2.address.city = "Gudur";
 
         System.out.println("\nAfter changing copied student city:");

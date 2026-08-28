@@ -37,17 +37,17 @@ public class productAdding1 {
     }
 	
 	public static void main(String[] args) {
-		 productAdding1[] products = new productAdding1[3];
+		 productAdding1[] products = new productAdding1[5];
 		 products[0] = new productAdding1(101, "Laptop", 50000, 10);
 	     products[1] = new productAdding1(102, "Mobile", 20000, 15);
 	     products[2] = new productAdding1(103, "Headphones", 2000, 20);
 	     
 	     System.out.println("Before Adding and Removing:");
 	        products[0].display();
-
-	        products[0].addItem(10);
 	        
-	        products[0].removeItem(5);
+	        products[0].addItem(5);
+	        
+	        products[0].removeItem(2);
 
 	        System.out.println("After Adding and Removing:");
 	        products[0].display();

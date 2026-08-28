@@ -27,12 +27,12 @@ package oopsConcepts;
 		public class ShallowCopy {
 	public static void main(String[] args) throws CloneNotSupportedException{
 		System.out.println("main method started");
-		Address address = new Address("Hyderabad");
+		Address address = new Address("hyderabad");
 		student s1 = new student(12,"chaithanya", address);
         System.out.println(s1.sid);
         System.out.println(s1.sname);
         System.out.println(s1.address.city);
-        
+       System.out.println("************************************************");
         student s2=(student)s1.clone();
         System.out.println(s2.sid);
         System.out.println(s2.sname);
