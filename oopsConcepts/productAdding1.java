@@ -6,6 +6,7 @@ public class productAdding1 {
 	private double price;
 	private int quantity;
 	
+	
 	public productAdding1( int pId,String pName,double price,int quantity) {
 		this.pId=pId;
 		this.pName=pName;
@@ -20,7 +21,6 @@ public class productAdding1 {
             System.out.println("Quantity must be positive");
         }
     }
-
     public void removeItem(int quantity) {
         if (quantity > 0 && quantity <= this.quantity) {
             this.quantity -= quantity;

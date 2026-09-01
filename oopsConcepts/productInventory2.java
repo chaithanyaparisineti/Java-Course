@@ -14,11 +14,11 @@ public class productInventory2 {
         System.out.println("product price:"+p1.getprice());
         System.out.println("product quantity:"+p1.getquantity());
         
-        p1.addStock(5);
+        p1.addStock(10);
         System.out.println("After adding stock: " + p1.getquantity());
 
        
-        p1.removeStock(3);
+        p1.removeStock(5);
         System.out.println("After removing stock: " + p1.getquantity());
    }
 	}
