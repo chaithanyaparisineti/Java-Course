@@ -1,4 +1,6 @@
 package oopsConcepts;
+//A shallow copy creates a new object, but the referenced objects inside it are not copied.
+//Both the original and copied objects refer to the same nested objects.
 
 	class student implements Cloneable{
 		int sid;

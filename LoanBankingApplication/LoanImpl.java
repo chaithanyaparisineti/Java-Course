@@ -9,9 +9,9 @@ public class LoanImpl implements Loan {
 	    protected String address;
 	    protected String employmentType;
 	    protected String companyName;
-
 	    protected double loanAmount;
 	    protected int loanTenure;
+	    
 	    @Override
 	    public boolean isPhoneValid() {
 	        System.out.println("Enter your mobile number ");

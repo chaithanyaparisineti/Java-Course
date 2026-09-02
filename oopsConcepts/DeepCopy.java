@@ -1,4 +1,6 @@
 package oopsConcepts;
+//A deep copy creates a new object and also creates new copies of all referenced objects inside it.
+//Changes to the copied object do not affect the original object.
 
 class student1 {
 
