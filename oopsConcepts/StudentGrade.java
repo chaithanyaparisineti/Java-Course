@@ -2,10 +2,10 @@ package oopsConcepts;
 
 import java.util.Scanner;
 
-class Student {
+class Student12 {
     double marks;
 
-    Student(double marks) {
+    Student12(double marks) {
         this.marks = marks;
     }
 
@@ -14,7 +14,7 @@ class Student {
     }
 }
 
-class EngineeringStudents extends Student {
+class EngineeringStudents extends Student12 {
 
     EngineeringStudents(double marks) {
         super(marks);
@@ -38,7 +38,7 @@ class EngineeringStudents extends Student {
     }
 }
 
-class MedicalStudents extends Student {
+class MedicalStudents extends Student12 {
 
     MedicalStudents(double marks) {
         super(marks);
@@ -62,7 +62,7 @@ class MedicalStudents extends Student {
     }
 }
 
-class ManagementStudents extends Student {
+class ManagementStudents extends Student12 {
 
     ManagementStudents(double marks) {
         super(marks);
@@ -101,9 +101,9 @@ public class StudentGrade {
         System.out.println("Enter Management Student Marks:");
         double managementStudent = sc.nextDouble();
 
-        Student s1 = new EngineeringStudents(engineeringStudent);
-        Student s2 = new MedicalStudents(medicalStudent);
-        Student s3 = new ManagementStudents(managementStudent);
+        Student12 s1 = new EngineeringStudents(engineeringStudent);
+        Student12 s2 = new MedicalStudents(medicalStudent);
+        Student12 s3 = new ManagementStudents(managementStudent);
 
         s1.calculateGrade();
         s2.calculateGrade();
