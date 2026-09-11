@@ -31,11 +31,10 @@ public class BankAccountAbs {
 		Account A1=new SavingsAccount();
 		Account A2=new CurrentAccount();
 		A1.AccountType();
-		A1.intrestRate();
+		A2.intrestRate();
 		System.out.println("********************************");
 		A2.AccountType();
-		A2.intrestRate();
-
+		A1.intrestRate();
 	}
 
 }
