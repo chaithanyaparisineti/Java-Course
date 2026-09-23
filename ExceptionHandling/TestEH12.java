@@ -41,8 +41,7 @@ public class TestEH12 {
 
             int averageBaggage = totalBaggage / numOfPassengers;
 
-            System.out.println("Average Baggage: "
-                    + averageBaggage + " kg");
+            System.out.println("Average Baggage: " + averageBaggage + " kg");
 
         } catch (ArithmeticException e) {
             System.out.println("Cannot divide by zero");
