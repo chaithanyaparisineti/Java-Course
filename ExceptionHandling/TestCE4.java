@@ -11,9 +11,9 @@ public class TestCE4 {
 			System.out.println("student.txt File not found ");	
 			System.err.println(e.toString());
 			}
-//			catch(Exception e) {
-//			System.out.println("Error occured:"+(e.getMessage()));
-//		}
+			catch(Exception e) {
+			System.out.println("Error occured");
+		}
 		System.out.println("Main Method Ended");
 	}
 
