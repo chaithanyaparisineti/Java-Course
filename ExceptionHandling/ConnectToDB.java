@@ -29,9 +29,7 @@ public class ConnectToDB {
 		}catch(ClassNotFoundException| SQLException e) {
 			System.err.println("in catch");
 		}
-		}
-		}
-		
-	
+	}	
+}
 
 
