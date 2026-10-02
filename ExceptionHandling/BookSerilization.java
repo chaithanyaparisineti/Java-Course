@@ -8,9 +8,6 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 class Books implements Serializable {
-
-   // private static final long serialVersionUID = 1L;
-
     transient int BookId;
     String title;
     String author;
@@ -23,7 +20,6 @@ class Books implements Serializable {
         this.price = price;
     }
 }
-
 public class BookSerilization {
 
     public static void main(String[] args) {
