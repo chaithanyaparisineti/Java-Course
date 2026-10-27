@@ -33,6 +33,7 @@ static boolean isprime(int n) {
 		}
 		System.out.println();
 	}
+	sc.close();
 	}
 
 }

@@ -22,8 +22,10 @@ public class RomanNumINT {
 	                sum+=current;
 	            }
 	        }
+	
 	        System.out.println(sum);
-	    }
+	        sc.close();
+	}
 	    static int value(char ch){
 
 	        switch(ch){
@@ -37,7 +39,9 @@ public class RomanNumINT {
 	            case 'M': return 1000;
 	        }
 
+	     
 	        return 0;
+	       
 	}
 
 }
