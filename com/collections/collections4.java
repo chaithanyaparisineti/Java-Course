@@ -16,7 +16,8 @@ public class collections4 {
 		Object[]obj=names.toArray();
 		for(Object ob:obj) {
 			System.out.println(ob);
-		}for(String name:names) {
+		}
+		for(String name:names) {
 			System.out.println(name);
 		}
 		System.out.println("******************");
