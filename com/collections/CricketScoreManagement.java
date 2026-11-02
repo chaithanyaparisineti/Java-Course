@@ -1,11 +1,8 @@
-
 package com.collections;
-
 import java.util.HashMap;
 import java.util.Map;
 
 public class CricketScoreManagement {
-
     public static void main(String[] args) {
 
         // Step 1: Create HashMap
