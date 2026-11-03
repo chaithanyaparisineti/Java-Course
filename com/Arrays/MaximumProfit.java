@@ -30,5 +30,7 @@ public class MaximumProfit {
         System.out.println("Buy at: " + buyPrice);
         System.out.println("Sell at: " + sellPrice);
         System.out.println("Profit: " + maxProfit);
-    }
+    
+	sc.close();
 }		
+}

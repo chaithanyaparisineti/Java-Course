@@ -21,7 +21,6 @@ public class PairArrays {
 			right--;
 		}
 	}
-
 	}
 
 }

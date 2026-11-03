@@ -29,7 +29,7 @@ public class ReadFromScanner {
 				System.out.println(a);
 			}
 			
-			
+		sc.close();
 		 }
 	}
 
