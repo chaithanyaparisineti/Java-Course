@@ -15,11 +15,11 @@ public class KmostFrequent {
 		}
 		//Priority Queue
 		PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> map.get(b) - map.get(a));
+		//Add of elements
 		pq.addAll(map.keySet());
-		
+		//print k most frequent
 		for(int i=0;i<k;i++) {
 		System.out.println(pq.poll());
 		}
 	}
-
 }
