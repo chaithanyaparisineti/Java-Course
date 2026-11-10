@@ -1,11 +1,9 @@
-
 package com.Multithreading;
 
 class NumberPrinter {
-
     int number = 1;
     int limit = 10;
-
+    
     public synchronized void printOdd() {
         while (number <= limit) {
             while (number % 2 == 0 && number <= limit) {
@@ -46,7 +44,6 @@ class NumberPrinter {
         notifyAll();
     }
 }
-
 public class Multithreading {
 
     public static void main(String[] args) {
