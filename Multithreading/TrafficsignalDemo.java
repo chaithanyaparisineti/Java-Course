@@ -6,7 +6,6 @@ class TrafficSignal extends Thread {
 
         try {
             while (true) {
-
                 // Red Signal
                 System.out.println("RED LIGHT - STOP");
                 Thread.sleep(5000);
